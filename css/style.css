@@ -1,0 +1,154 @@
+:root{
+    --main-color:tomato;
+}
+.main-color{
+    background-color: var(--main-color);
+}
+.main-color-f{
+    color: var(--main-color);
+}
+ul a i:hover{
+    color: var(--main-color);
+} 
+.ul{
+    list-style: none;
+}
+
+.team .team-member .overlay{
+   transition: .3s;
+}
+.team .team-member:hover .overlay{
+    opacity: .7 !important;
+}
+.team .team-member:hover h5{
+    color: var(--main-color);
+}
+.carousel-control-next{
+    height: 30px !important;
+    margin-bottom: 0 !important;
+    margin-top: 50px !important;
+}
+.carousel-control-prev{
+    height: 30px!important;
+    margin-bottom: 50px !important;
+}
+ .back-range{
+    height: 5px !important;
+    margin-bottom: 10px;
+}
+.range-1{
+    width: 80%!important;
+}
+.range-2{
+    width: 95%!important;
+}
+.range-3{
+    width: 85%!important;
+}
+.range-4{
+    width: 70%!important;
+}
+.Services .container .row .col-md-4 .row .col-md-9 h5{
+    transition: .3s;
+}
+.Services .container .row .col-md-4 .row .col-md-9 h5:hover{
+    color: var(--main-color);
+    
+}
+
+
+#carouselExampleIndicators  .carousel-inner .carousel-item{
+    float: none;
+}
+
+.content-2{
+    background-image: url(../images/slideshow-3-1.jpg);background-position: center center;background-size: cover;
+    background-color: black;
+}
+.contact-hov{
+    color: var(--main-color);
+}
+.contact-prag{
+    color: rgb(88, 88, 88);
+}
+.botton{
+    background-color: var(--main-color);
+} 
+input:focus-visible{
+    outline: 2px solid var(--main-color);
+    border: none;
+    border-radius: 5px;
+}
+.content-2 .row .col-md-3 h6:hover{
+    color: var(--main-color);
+
+}
+
+.content-2 .row  button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.content-2 .row   a{
+    text-decoration: none;
+    color: white;
+}
+footer a i:hover{
+    color: var(--main-color);
+}
+nav .nav-item a:hover{
+    color: var(--main-color);
+}
+#home .carousel-inner .sec-1 {
+    background-image: url(../images/slideshow-1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#home .carousel-inner .sec-2 {
+    background-image: url(../images/slideshow-2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#home .carousel-inner .sec-3 {
+    background-image: url(../images/slideshow-3.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.mouse{
+    width: 30px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 100px;
+    position: relative;
+    bottom: 10px;
+}
+.mouse::after{
+    content: "";
+    width: 5px;
+    height: 7px;
+    position: absolute;
+    background-color: white;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+    animation: mousee 2s infinite ;
+    
+
+    
+}
+@keyframes mousee {
+    0%{
+        bottom: 10px;
+    }
+60%{
+bottom: 30px;
+opacity: .1;
+
+    }
+    100%{
+bottom: 10px;
+    }
+}
+
+
